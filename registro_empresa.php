@@ -150,5 +150,20 @@ if (isset($_SESSION['usuario_id'])) {
         </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('input[name="cnpj"]').mask('00.000.000/0000-00');
+            $('input[name="telefone"]').mask('(00) 0000-00009');
+            $('input[name="telefone"]').blur(function(event) {
+                if($(this).val().length == 15){
+                    $(this).mask('(00) 00000-0000');
+                } else {
+                    $(this).mask('(00) 0000-00009');
+                }
+            });
+        });
+    </script>
 </body>
 </html>
