@@ -56,8 +56,7 @@ if (isset($_SESSION['usuario_id'])) {
             <div class="col-lg-10">
                 <div class="card login-card row flex-lg-row flex-column-reverse">
                     <div class="col-lg-5 login-banner">
-                        <i class="bi bi-mortarboard-fill mb-3" style="font-size: 4rem;"></i>
-                        <h2 class="fw-bold mb-3">Fatec Itapira</h2>
+                        <img src="logo.png" alt="Fatec Itapira" class="img-fluid mb-4 d-block mx-auto" style="max-height: 180px; width: auto;">
                         <p class="opacity-75">Portal de Oportunidades e Estágios. Conectando alunos ao mercado de trabalho.</p>
                     </div>
                     

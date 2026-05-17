@@ -36,8 +36,7 @@ $vagas = $stmtVagas->fetchAll();
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="cadastro.php">
-                <i class="bi bi-mortarboard-fill fs-3 me-2"></i>
-                <span class="fw-bold">Fatec Estágios</span>
+                <img src="logo.png" alt="Logo" class="navbar-logo me-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -66,7 +65,7 @@ $vagas = $stmtVagas->fetchAll();
             </div>
         </div>
     </nav>
-
+<br>
     <main class="container mt-5 pt-5 pb-5">
         <div class="d-flex justify-content-between align-items-center mb-4">
             <div>

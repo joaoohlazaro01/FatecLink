@@ -59,7 +59,7 @@ if (isset($_SESSION['usuario_id'])) {
             <div class="col-lg-12">
                 <div class="card login-card row flex-lg-row flex-column-reverse">
                     <div class="col-lg-4 login-banner">
-                        <i class="bi bi-building-fill-add mb-3" style="font-size: 4rem;"></i>
+                        <img src="logo.png" alt="Fatec Itapira" class="img-fluid mb-4" style="max-height: 80px;">
                         <h2 class="fw-bold mb-3">Sou Empresa</h2>
                         <p class="opacity-75">Encontre talentos qualificados na Fatec Itapira e fortaleça sua equipe com novos estagiários.</p>
                         <a href="login.php" class="btn btn-outline-light mt-4 rounded-pill px-4">Já tenho conta</a>

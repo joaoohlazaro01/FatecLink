@@ -18,9 +18,29 @@ body {
     padding: 15px 0;
 }
 
+/* Admin Navbar Reversion */
+.navbar-admin {
+    background-color: #1a1a1a !important; /* Dark gray/black */
+}
+
+.navbar-admin .user-profile {
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .custom-navbar .navbar-brand {
     font-weight: 700;
     letter-spacing: -0.5px;
+    padding: 0;
+}
+
+.navbar-logo {
+    height: 70px;
+    width: auto;
+    transition: transform 0.3s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.05);
 }
 
 .custom-navbar .nav-link {

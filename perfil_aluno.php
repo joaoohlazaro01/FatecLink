@@ -29,8 +29,7 @@ $perfil = $stmt->fetch();
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-navbar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.php">
-                <i class="bi bi-mortarboard-fill fs-3 me-2"></i>
-                <span class="fw-bold">Fatec Estágios</span>
+                <img src="logo.png" alt="Logo" class="navbar-logo me-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
